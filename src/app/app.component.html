@@ -1,0 +1,5 @@
+<h4>Selector-Demo</h4>
+
+@for (item of items; track item) {
+  <div [attr.test-data]="'abc - ' + items.indexOf(item)">{{ item }}</div>
+}
